@@ -3,9 +3,8 @@
 namespace app\controllers;
 
 
-use yii\base\Controller;
 
-class MyController extends Controller{
+class MyController extends AppController {
 
     public function actionIndex() {
         $hi = 'HI $hi';
