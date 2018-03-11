@@ -17,10 +17,10 @@ use yii\helpers\Html ;
 
 
 <?php $form = ActiveForm::begin() ?>
-<?=$form->field($model, 'name')?>
-<?=$form->field($model, 'email')?>
-<?=$form->field($model, 'text')->textarea()?>
-<?=Html::submitButton('Send', ['class' => 'btn btn-success'])?>
+    <?=$form->field($model, 'name')?>
+    <?=$form->field($model, 'email')?>
+    <?=$form->field($model, 'text')->textarea()?>
+    <?=Html::submitButton('Send', ['class' => 'btn btn-success'])?>
 <?php ActiveForm::end() ?>
 
 
