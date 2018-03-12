@@ -12,6 +12,18 @@ class PostController extends AppController {
 
     public function actionIndex() {
 
+        //Изменения db
+//        $post = TestForm::findOne(5);
+//        $post->email = '111111@gmail.com';
+//        $post->save();
+
+        //Удаление
+//        $post = TestForm::findOne(6);
+//        $post->delete();
+
+        //Удалить много элементов
+        //TestForm::deleteAll(['>', 'id', '5']);
+
        $model = new TestForm();
 
 //       $model->name = 'Автор';
@@ -35,6 +47,8 @@ class PostController extends AppController {
 
 
     public function actionShow() {
+        //Выборка db
+
         //$cats = Category::find()->all();
         //$cats = Category::find()->orderBy(['name' => SORT_ASC])->all();
         //$cats = Category::find()->asArray()->all();
