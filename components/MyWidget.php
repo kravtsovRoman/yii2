@@ -10,9 +10,9 @@ class MyWidget extends Widget{
     public function init()
     {
         parent::init();
-        if ($this->name == false) $this->name = 'Guest';
-
-    }
+//        if ($this->name == false) $this->name = 'Guest';
+//
+//    }
 
     public function run(){
 
